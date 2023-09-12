@@ -1,0 +1,17 @@
+// If you want to override variables do it here
+@import "variables";
+
+$enable-ltr: true;
+$enable-rtl: true;
+
+// Import styles
+@import "../assets/scss/coreui.scss";
+
+// Import Chart.js Tooltips
+@import "../assets/chartjs/scss/tooltips";
+
+@import "layout";
+@import "example";
+
+// If you want to add something do it here
+// @import "custom";
